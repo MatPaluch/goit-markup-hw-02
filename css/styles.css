@@ -4,22 +4,23 @@
   --SLATE: #434455;
   --CORNFLOWER: #e7e9fc;
   --WHITE: #fff;
+  --OCEAN: #404bbf;
 }
 body {
   margin: 0;
 
-  color: var(--SLATE);
+  color: var(--SLATE, #434455);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 2%;
-  background-color: #fff;
+  background-color: var(--WHITE, #fff);
 }
 
 header {
-  background: var(--WHITE, #fff);
+  background-color: var(--WHITE, #fff);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -37,7 +38,7 @@ header {
   text-decoration: none;
 }
 
-.nav-list {
+.list {
   list-style: none;
 }
 .list-link {
@@ -55,30 +56,45 @@ header {
   color: var(--OCEAN, #404bbf);
 }
 
-.contact {
+.address {
   font-style: normal;
 }
-.email {
+.contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
-.email:focus {
+.contact:focus {
   color: var(--OCEAN, #404bbf);
 }
-.email:hover {
+.contact:hover {
   color: var(--OCEAN, #404bbf);
 }
-.tel {
+
+.hero-image {
+  background-color: var(--NAVY-BLUE, #2e2f42);
+}
+.title-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--WHITE, #fff);
+}
+.button-service {
+  background-color: var(--IRIS, #4d5ae5);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--SLATE, #434455);
+  letter-spacing: 0.04em;
+  color: var(--WHITE, #fff);
+  cursor: pointer;
 }
-.tel:focus {
-  color: var(--OCEAN, #404bbf);
+.button-service:hover {
+  background-color: var(--OCEAN, #404bbf);
 }
-.tel:hover {
-  color: var(--OCEAN, #404bbf);
+.button-service:focus {
+  background-color: var(--OCEAN, #404bbf);
 }
