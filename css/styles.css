@@ -17,10 +17,7 @@ body {
   letter-spacing: 2%;
   background-color: #fff;
 }
-a {
-  text-decoration: none;
-  font-style: normal;
-}
+
 header {
   background: var(--WHITE, #fff);
 }
@@ -31,66 +28,57 @@ header {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-.logo-web {
   color: var(--IRIS, #4d5ae5);
 }
 .logo-studio {
   color: var(--NAVY-BLUE, #2e2f42);
 }
+.link {
+  text-decoration: none;
+}
 
-.links {
+.list {
+  list-style: none;
+}
+.list-link {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 2%;
-}
-.links ul {
-  list-style: none;
-}
-.links a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
 }
-.links a:active {
+.list-link:active {
+  color: var(--OCEAN, #404bbf);
+}
+.list-link:hover {
   color: var(--OCEAN, #404bbf);
 }
 
-address ul {
-  list-style: none;
+.contact {
+  font-style: normal;
 }
-address a {
+.email {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
-
-.hero-image {
-  background: var(--NAVY-BLUE, #2e2f42);
+.email:active {
+  color: var(--OCEAN, #404bbf);
 }
-.hero-image h1 {
-  color: var(--WHITE, #fff);
-  text-align: center;
-  font-size: 56px;
-  font-weight: bold;
-  line-height: 60px;
-  letter-spacing: 2%;
+.email:hover {
+  color: var(--OCEAN, #404bbf);
 }
-.hero-image button {
-  color: var(--WHITE, #fff);
-
-  /* Button Text */
-  font-family: Roboto;
+.tel {
   font-size: 16px;
-  font-weight: medium;
-  line-height: 24px; /* 150% */
-  letter-spacing: 4%;
-
-  /* Button Container */
-  border: 0;
-  background: var(--IRIS, #4d5ae5);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE, #434455);
 }
-.hero-image button:hover {
-  background: var(--OCEAN, #404bbf);
+.tel:active {
+  color: var(--OCEAN, #404bbf);
 }
-.hero-image button:active {
-  background: var(--OCEAN, #404bbf);
+.tel:hover {
+  color: var(--OCEAN, #404bbf);
 }
