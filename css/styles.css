@@ -144,3 +144,31 @@ header {
 .footer-descrip {
   color: var(--CLOUD, #f4f4fd);
 }
+
+/*------------ Portfolio ------------*/
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--IRIS, #4d5ae5);
+  background-color: var(--CLOUD, #f4f4fd);
+  cursor: pointer;
+}
+.filter-button:hover {
+  color: var(--WHITE, #fff);
+  background-color: var(--OCEAN, #404bbf);
+}
+.filter-button:focus {
+  color: var(--WHITE, #fff);
+  background-color: var(--OCEAN, #404bbf);
+}
+.header-second-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
